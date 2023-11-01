@@ -1,0 +1,349 @@
+h1 {
+  font-family: cursive;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0px 32px;
+}
+
+main {
+  width: 100%;
+}
+main .mdiv {
+  width: 100%;
+  min-height: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+main .mdiv .md1 {
+  width: 47%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+main .mdiv .md1 h3 {
+  position: relative;
+  font-size: 15px;
+  color: #fb5849;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-left: 40px;
+}
+main .mdiv .md1 h3:before {
+  width: 30px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-color: #fb5849;
+}
+main .mdiv .md1 h1 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+main .mdiv .md1 p {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+main .mdiv .md1 p a {
+  text-decoration: none;
+  color: blue;
+}
+main .mdiv .md1 .md11 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+main .mdiv .md1 .md11 div {
+  width: 30%;
+  min-height: 200px;
+}
+main .mdiv .md1 .md11 div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .mdiv .md2 {
+  width: 47%;
+  height: 450px;
+  position: relative;
+}
+main .mdiv .md2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .mdiv .md2 div {
+  position: absolute;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  border-radius: 999999px;
+  background-color: #fb5849;
+  opacity: 0.9;
+  overflow: hidden;
+  left: calc(50% - 35px);
+  bottom: calc(50% - 35px);
+}
+main .mdiv .md2 div a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 1023px) {
+  main .mdiv {
+    flex-direction: column;
+  }
+  main .mdiv .md1 {
+    width: 90%;
+  }
+  main .mdiv .md2 {
+    width: 90%;
+  }
+}
+header {
+  width: 100%;
+  min-height: 800px;
+  background-color: #fffafa;
+  padding-top: 100px;
+}
+header .hdiv1 {
+  width: 25%;
+  height: 200px;
+}
+header .hdiv1 h3 {
+  position: relative;
+  font-size: 15px;
+  color: #fb5849;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-left: 40px;
+}
+header .hdiv1 h3:before {
+  width: 30px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-color: #fb5849;
+}
+header .hdiv1 h1 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+header .hdiv2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+header .hdiv2 .hd {
+  width: 19%;
+  height: 400px;
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+header .hdiv2 .hd .pr {
+  width: 20%;
+  height: 15%;
+  background-color: #fb5849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+header .hdiv2 .hd .inf {
+  width: 100%;
+  height: 200px;
+  background-color: #fb5849;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: -40%;
+  transition: bottom 0.5s ease;
+}
+header .hdiv2 .hd:hover .inf {
+  bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  header .hdiv1 {
+    width: 50%;
+  }
+}
+section {
+  width: 100%;
+  min-height: 750px;
+  background-image: url("	https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section .sdiv {
+  width: 100%;
+  min-height: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+section .sdiv .sd1 {
+  width: 47%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section .sdiv .sd1 h3 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-left: 40px;
+}
+section .sdiv .sd1 h3:before {
+  width: 30px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-color: white;
+}
+section .sdiv .sd1 h1 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+section .sdiv .sd1 .sd12 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+section .sdiv .sd1 .sd12 .sd11 {
+  width: 45%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .sdiv .sd1 .sd12 .sd11 h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+section .sdiv .sd1 .sd12 .sd11 a {
+  text-decoration: none;
+  color: black;
+}
+section .sdiv .sd1 .sd12 .sd11 div {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #fb5849;
+  border-radius: 99999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  left: calc(50% - 35px);
+  top: -30%;
+}
+section .sdiv .sd2 {
+  width: 47%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  gap: 10px;
+  color: black;
+}
+section .sdiv .sd2 .sd21 {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  gap: 4%;
+}
+section .sdiv .sd2 .sd21 input {
+  width: 48%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+section .sdiv .sd2 .inp {
+  width: 90%;
+  height: 150px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+section .sdiv .sd2 a {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  background-color: #fb5849;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+  section .sdiv {
+    flex-direction: column;
+    gap: 50px;
+  }
+  section .sdiv .sd1 {
+    width: 90%;
+  }
+  section .sdiv .sd2 {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+$col1: #fb5849;
+
+h1{
+    font-family: cursive;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 32px;
+}
+
+@import 'main';
+@import 'header';
+@import 'section';
